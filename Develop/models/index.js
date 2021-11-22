@@ -16,9 +16,13 @@ Category.hasMany(Product, {
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: ProductTag,
+  //as: I would love some input about the as attribute used in the mods,,, is this just aliasing something, as a vote in the mod?
   foreignKey: 'product_id'
 })
 // Tags belongToMany Products (through ProductTag)
+Tag.belongsToMany(Product, {
+  foreignKey: 'tag_id'
+})
 
 module.exports = {
   Product,
