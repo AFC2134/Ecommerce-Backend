@@ -15,16 +15,15 @@
   ## Installation
     go to the github repo provided in this README, clone down the files and run npm install for dependencies
 
-  ## Usage
-    
+  ## YOUTUBE WALKTHROUGH 
+  https://www.youtube.com/watch?v=WvSPsfr3nwQ
+  https://www.youtube.com/watch?v=_E9fWZI6WNQ
 
   ## License  
     This application is covered under the no license license.
  
   ## Contributing
     no contributions please
-
-  ## Tests
     
 
   ## Questions
